@@ -1,5 +1,3 @@
-from dotenv import load_dotenv
-import os
 from azure.core.credentials import AzureKeyCredential
 from azure.ai.textanalytics import TextAnalyticsClient
 
@@ -8,10 +6,8 @@ def main():
     global ai_key
 
     try:
-        # Get Configuration Settings
-        load_dotenv()
-        ai_endpoint = os.getenv('AI_SERVICE_ENDPOINT')
-        ai_key = os.getenv('AI_SERVICE_KEY')
+        ai_endpoint = input("Enter the endpoint!")
+        ai_key = input("Enter the Rest API Key!")
 
         # Get user input (until they enter "quit")
         userText =''

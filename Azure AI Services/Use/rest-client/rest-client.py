@@ -1,17 +1,12 @@
-from dotenv import load_dotenv
-import os
 import http.client, base64, json, urllib
 from urllib import request, parse, error
 
 def main():
     global ai_endpoint
     global ai_key
-
     try:
-        # Get Configuration Settings
-        load_dotenv()
-        ai_endpoint = os.getenv('AI_SERVICE_ENDPOINT')
-        ai_key = os.getenv('AI_SERVICE_KEY')
+        ai_endpoint = input("Enter the endpoint!")
+        ai_key = input("Enter the Rest API Key!")
 
         # Get user input (until they enter "quit")
         userText =''
@@ -19,7 +14,6 @@ def main():
             userText = input('Enter some text ("quit" to stop)\n')
             if userText.lower() != 'quit':
                 GetLanguage(userText)
-
 
     except Exception as ex:
         print(ex)
@@ -71,10 +65,8 @@ def GetLanguage(text):
 
         conn.close()
 
-
     except Exception as ex:
         print(ex)
-
 
 if __name__ == "__main__":
     main()
