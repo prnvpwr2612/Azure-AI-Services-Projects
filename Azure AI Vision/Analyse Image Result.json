@@ -1,0 +1,139 @@
+{
+    "modelVersion": "2023-10-01",
+    "captionResult": {
+        "text": "a collage of a person pointing at his jersey",
+        "confidence": 0.6765863299369812
+    },
+    "metadata": {
+        "width": 1920,
+        "height": 1080
+    },
+    "readResults": [
+        {
+            "text": "FOI",
+            "boundingPolygon": [
+                {"x": 1567, "y": 690},
+                {"x": 1589, "y": 676},
+                {"x": 1596, "y": 687},
+                {"x": 1572, "y": 702}
+            ],
+            "words": [
+                {
+                    "text": "FOI",
+                    "boundingPolygon": [
+                        {"x": 1567, "y": 689},
+                        {"x": 1588, "y": 676},
+                        {"x": 1595, "y": 687},
+                        {"x": 1573, "y": 700}
+                    ],
+                    "confidence": 0.308
+                }
+            ]
+        },
+        {
+            "text": "SPAIN",
+            "boundingPolygon": [
+                {"x": 449, "y": 942},
+                {"x": 741, "y": 942},
+                {"x": 741, "y": 1010},
+                {"x": 449, "y": 1010}
+            ],
+            "words": [
+                {
+                    "text": "SPAIN",
+                    "boundingPolygon": [
+                        {"x": 455, "y": 943},
+                        {"x": 705, "y": 945},
+                        {"x": 703, "y": 1011},
+                        {"x": 454, "y": 1011}
+                    ],
+                    "confidence": 0.993
+                }
+            ]
+        },
+        {
+            "text": "UEFA",
+            "boundingPolygon": [
+                {"x": 936, "y": 928},
+                {"x": 986, "y": 931},
+                {"x": 985, "y": 955},
+                {"x": 935, "y": 953}
+            ],
+            "words": [
+                {
+                    "text": "UEFA",
+                    "boundingPolygon": [
+                        {"x": 936, "y": 928},
+                        {"x": 986, "y": 930},
+                        {"x": 985, "y": 955},
+                        {"x": 935, "y": 952}
+                    ],
+                    "confidence": 0.638
+                }
+            ]
+        },
+        {
+            "text": "EURO2024",
+            "boundingPolygon": [
+                {"x": 890, "y": 951},
+                {"x": 1034, "y": 952},
+                {"x": 1034, "y": 981},
+                {"x": 890, "y": 980}
+            ],
+            "words": [
+                {
+                    "text": "EURO2024",
+                    "boundingPolygon": [
+                        {"x": 893, "y": 952},
+                        {"x": 1032, "y": 954},
+                        {"x": 1032, "y": 981},
+                        {"x": 892, "y": 981}
+                    ],
+                    "confidence": 0.986
+                }
+            ]
+        },
+        {
+            "text": "GEORGIA",
+            "boundingPolygon": [
+                {"x": 1112, "y": 942},
+                {"x": 1521, "y": 940},
+                {"x": 1521, "y": 1011},
+                {"x": 1112, "y": 1012}
+            ],
+            "words": [
+                {
+                    "text": "GEORGIA",
+                    "boundingPolygon": [
+                        {"x": 1114, "y": 944},
+                        {"x": 1500, "y": 941},
+                        {"x": 1498, "y": 1012},
+                        {"x": 1113, "y": 1011}
+                    ],
+                    "confidence": 0.993
+                }
+            ]
+        },
+        {
+            "text": "GERMANY",
+            "boundingPolygon": [
+                {"x": 924, "y": 977},
+                {"x": 1002, "y": 978},
+                {"x": 1002, "y": 996},
+                {"x": 924, "y": 996}
+            ],
+            "words": [
+                {
+                    "text": "GERMANY",
+                    "boundingPolygon": [
+                        {"x": 926, "y": 978},
+                        {"x": 1000, "y": 980},
+                        {"x": 998, "y": 996},
+                        {"x": 925, "y": 997}
+                    ],
+                    "confidence": 0.994
+                }
+            ]
+        }
+    ]
+}
