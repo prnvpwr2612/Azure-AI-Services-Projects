@@ -3,8 +3,8 @@ from azure.ai.vision.imageanalysis.models import VisualFeatures
 from azure.core.credentials import AzureKeyCredential
 
 client = ImageAnalysisClient(
-    endpoint="https://analyseimages-prnvpwr2612.cognitiveservices.azure.com/",
-    credential=AzureKeyCredential("18ffa797cfa84f7fbbf79b2e3eada2f8")
+    endpoint="ENDPOINT",
+    credential=AzureKeyCredential("KEY")
 )
 
 result = client.analyze_from_url(
