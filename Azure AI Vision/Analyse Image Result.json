@@ -1,139 +1,519 @@
 {
-    "modelVersion": "2023-10-01",
-    "captionResult": {
-        "text": "a collage of a person pointing at his jersey",
-        "confidence": 0.6765863299369812
+    'modelVersion': '2023-10-01',
+    'captionResult': {
+        'text': 'a collage of a person pointing at his jersey',
+        'confidence': 0.6765863299369812
     },
-    "metadata": {
-        "width": 1920,
-        "height": 1080
+    'denseCaptionsResult': {
+        'values': [
+            {
+                'text': 'a collage of a person pointing at his jersey',
+                'confidence': 0.6765863299369812,
+                'boundingBox': {
+                    'x': 0,
+                    'y': 0,
+                    'w': 1920,
+                    'h': 1080
+                }
+            },
+            {
+                'text': 'a blue and red logo',
+                'confidence': 0.5665677189826965,
+                'boundingBox': {
+                    'x': 863,
+                    'y': 774,
+                    'w': 183,
+                    'h': 260
+                }
+            },
+            {
+                'text': 'a person pointing at his shirt',
+                'confidence': 0.7684621214866638,
+                'boundingBox': {
+                    'x': 304,
+                    'y': 0,
+                    'w': 660,
+                    'h': 1042
+                }
+            },
+            {
+                'text': 'a person posing for a picture',
+                'confidence': 0.8027243614196777,
+                'boundingBox': {
+                    'x': 929,
+                    'y': 0,
+                    'w': 669,
+                    'h': 1052
+                }
+            },
+            {
+                'text': 'a close-up of a red coat of arms',
+                'confidence': 0.7924275398254395,
+                'boundingBox': {
+                    'x': 738,
+                    'y': 615,
+                    'w': 113,
+                    'h': 143
+                }
+            },
+            {
+                'text': 'a red cross on a white background',
+                'confidence': 0.8917766809463501,
+                'boundingBox': {
+                    'x': 1641,
+                    'y': 87,
+                    'w': 228,
+                    'h': 230
+                }
+            },
+            {
+                'text': 'a gold and red coat of arms',
+                'confidence': 0.6976823210716248,
+                'boundingBox': {
+                    'x': 0,
+                    'y': 257,
+                    'w': 309,
+                    'h': 534
+                }
+            },
+            {
+                'text': 'a colorful shield with a lion and castle',
+                'confidence': 0.6700711250305176,
+                'boundingBox': {
+                    'x': 32,
+                    'y': 475,
+                    'w': 242,
+                    'h': 265
+                }
+            },
+            {
+                'text': 'a person with a beard',
+                'confidence': 0.7954586148262024,
+                'boundingBox': {
+                    'x': 1091,
+                    'y': 1,
+                    'w': 334,
+                    'h': 430
+                }
+            },
+            {
+                'text': 'a blue circle with yellow fleur de lis on it',
+                'confidence': 0.7734910249710083,
+                'boundingBox': {
+                    'x': 124,
+                    'y': 567,
+                    'w': 68,
+                    'h': 76
+                }
+            }
+        ]
     },
-    "readResults": [
-        {
-            "text": "FOI",
-            "boundingPolygon": [
-                {"x": 1567, "y": 690},
-                {"x": 1589, "y": 676},
-                {"x": 1596, "y": 687},
-                {"x": 1572, "y": 702}
-            ],
-            "words": [
-                {
-                    "text": "FOI",
-                    "boundingPolygon": [
-                        {"x": 1567, "y": 689},
-                        {"x": 1588, "y": 676},
-                        {"x": 1595, "y": 687},
-                        {"x": 1573, "y": 700}
-                    ],
-                    "confidence": 0.308
+    'metadata': {
+        'width': 1920,
+        'height': 1080
+    },
+    'tagsResult': {
+        'values': [
+            {
+                'name': 'text',
+                'confidence': 0.999960720539093
+            },
+            {
+                'name': 'human face',
+                'confidence': 0.9959132671356201
+            },
+            {
+                'name': 'clothing',
+                'confidence': 0.9838039875030518
+            },
+            {
+                'name': 'person',
+                'confidence': 0.9808453321456909
+            },
+            {
+                'name': 'man',
+                'confidence': 0.9113078117370605
+            },
+            {
+                'name': 'smile',
+                'confidence': 0.8953647613525391
+            },
+            {
+                'name': 'human beard',
+                'confidence': 0.8773292303085327
+            },
+            {
+                'name': 'graphic design',
+                'confidence': 0.8654519319534302
+            }
+        ]
+    },
+    'objectsResult': {
+        'values': [
+            {
+                'boundingBox': {
+                    'x': 315,
+                    'y': 0,
+                    'w': 695,
+                    'h': 1073
+                },
+                'tags': [
+                    {
+                        'name': 'person',
+                        'confidence': 0.92
+                    }
+                ]
+            },
+            {
+                'boundingBox': {
+                    'x': 890,
+                    'y': 0,
+                    'w': 726,
+                    'h': 1080
+                },
+                'tags': [
+                    {
+                        'name': 'person',
+                        'confidence': 0.937
+                    }
+                ]
+            }
+        ]
+    },
+    'readResult': {
+        'blocks': [
+            {
+                'lines': [
+                    {
+                        'text': 'VL',
+                        'boundingPolygon': [
+                            {
+                                'x': 277,
+                                'y': 557
+                            },
+                            {
+                                'x': 314,
+                                'y': 558
+                            },
+                            {
+                                'x': 314,
+                                'y': 572
+                            },
+                            {
+                                'x': 276,
+                                'y': 572
+                            }
+                        ],
+                        'words': [
+                            {
+                                'text': 'VL',
+                                'boundingPolygon': [
+                                    {
+                                        'x': 278,
+                                        'y': 557
+                                    },
+                                    {
+                                        'x': 306,
+                                        'y': 557
+                                    },
+                                    {
+                                        'x': 306,
+                                        'y': 572
+                                    },
+                                    {
+                                        'x': 278,
+                                        'y': 571
+                                    }
+                                ],
+                                'confidence': 0.831
+                            }
+                        ]
+                    },
+                    {
+                        'text': 'FOI',
+                        'boundingPolygon': [
+                            {
+                                'x': 1567,
+                                'y': 690
+                            },
+                            {
+                                'x': 1589,
+                                'y': 676
+                            },
+                            {
+                                'x': 1596,
+                                'y': 687
+                            },
+                            {
+                                'x': 1572,
+                                'y': 702
+                            }
+                        ],
+                        'words': [
+                            {
+                                'text': 'FOI',
+                                'boundingPolygon': [
+                                    {
+                                        'x': 1567,
+                                        'y': 689
+                                    },
+                                    {
+                                        'x': 1588,
+                                        'y': 676
+                                    },
+                                    {
+                                        'x': 1595,
+                                        'y': 687
+                                    },
+                                    {
+                                        'x': 1573,
+                                        'y': 700
+                                    }
+                                ],
+                                'confidence': 0.308
+                            }
+                        ]
+                    },
+                    {
+                        'text': 'SPAIN',
+                        'boundingPolygon': [
+                            {
+                                'x': 449,
+                                'y': 942
+                            },
+                            {
+                                'x': 741,
+                                'y': 942
+                            },
+                            {
+                                'x': 741,
+                                'y': 1010
+                            },
+                            {
+                                'x': 449,
+                                'y': 1010
+                            }
+                        ],
+                        'words': [
+                            {
+                                'text': 'SPAIN',
+                                'boundingPolygon': [
+                                    {
+                                        'x': 455,
+                                        'y': 943
+                                    },
+                                    {
+                                        'x': 705,
+                                        'y': 945
+                                    },
+                                    {
+                                        'x': 703,
+                                        'y': 1011
+                                    },
+                                    {
+                                        'x': 454,
+                                        'y': 1011
+                                    }
+                                ],
+                                'confidence': 0.993
+                            }
+                        ]
+                    },
+                    {
+                        'text': 'UEFA',
+                        'boundingPolygon': [
+                            {
+                                'x': 936,
+                                'y': 928
+                            },
+                            {
+                                'x': 986,
+                                'y': 931
+                            },
+                            {
+                                'x': 985,
+                                'y': 955
+                            },
+                            {
+                                'x': 935,
+                                'y': 953
+                            }
+                        ],
+                        'words': [
+                            {
+                                'text': 'UEFA',
+                                'boundingPolygon': [
+                                    {
+                                        'x': 936,
+                                        'y': 928
+                                    },
+                                    {
+                                        'x': 986,
+                                        'y': 930
+                                    },
+                                    {
+                                        'x': 985,
+                                        'y': 955
+                                    },
+                                    {
+                                        'x': 935,
+                                        'y': 952
+                                    }
+                                ],
+                                'confidence': 0.638
+                            }
+                        ]
+                    },
+                    {
+                        'text': 'EURO2024',
+                        'boundingPolygon': [
+                            {
+                                'x': 890,
+                                'y': 951
+                            },
+                            {
+                                'x': 1034,
+                                'y': 952
+                            },
+                            {
+                                'x': 1034,
+                                'y': 981
+                            },
+                            {
+                                'x': 890,
+                                'y': 980
+                            }
+                        ],
+                        'words': [
+                            {
+                                'text': 'EURO2024',
+                                'boundingPolygon': [
+                                    {
+                                        'x': 893,
+                                        'y': 952
+                                    },
+                                    {
+                                        'x': 1032,
+                                        'y': 954
+                                    },
+                                    {
+                                        'x': 1032,
+                                        'y': 981
+                                    },
+                                    {
+                                        'x': 892,
+                                        'y': 981
+                                    }
+                                ],
+                                'confidence': 0.986
+                            }
+                        ]
+                    },
+                    {
+                        'text': 'GEORGIA',
+                        'boundingPolygon': [
+                            {
+                                'x': 1112,
+                                'y': 942
+                            },
+                            {
+                                'x': 1521,
+                                'y': 940
+                            },
+                            {
+                                'x': 1521,
+                                'y': 1011
+                            },
+                            {
+                                'x': 1112,
+                                'y': 1012
+                            }
+                        ],
+                        'words': [
+                            {
+                                'text': 'GEORGIA',
+                                'boundingPolygon': [
+                                    {
+                                        'x': 1114,
+                                        'y': 944
+                                    },
+                                    {
+                                        'x': 1500,
+                                        'y': 941
+                                    },
+                                    {
+                                        'x': 1498,
+                                        'y': 1012
+                                    },
+                                    {
+                                        'x': 1113,
+                                        'y': 1011
+                                    }
+                                ],
+                                'confidence': 0.993
+                            }
+                        ]
+                    },
+                    {
+                        'text': 'GERMANY',
+                        'boundingPolygon': [
+                            {
+                                'x': 924,
+                                'y': 977
+                            },
+                            {
+                                'x': 1002,
+                                'y': 978
+                            },
+                            {
+                                'x': 1002,
+                                'y': 996
+                            },
+                            {
+                                'x': 924,
+                                'y': 996
+                            }
+                        ],
+                        'words': [
+                            {
+                                'text': 'GERMANY',
+                                'boundingPolygon': [
+                                    {
+                                        'x': 926,
+                                        'y': 978
+                                    },
+                                    {
+                                        'x': 1000,
+                                        'y': 980
+                                    },
+                                    {
+                                        'x': 998,
+                                        'y': 996
+                                    },
+                                    {
+                                        'x': 925,
+                                        'y': 997
+                                    }
+                                ],
+                                'confidence': 0.994
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    'smartCropsResult': {
+        'values': [
+            {
+                'aspectRatio': 1.96,
+                'boundingBox': {
+                    'x': 80,
+                    'y': 45,
+                    'w': 1760,
+                    'h': 900
                 }
-            ]
-        },
-        {
-            "text": "SPAIN",
-            "boundingPolygon": [
-                {"x": 449, "y": 942},
-                {"x": 741, "y": 942},
-                {"x": 741, "y": 1010},
-                {"x": 449, "y": 1010}
-            ],
-            "words": [
-                {
-                    "text": "SPAIN",
-                    "boundingPolygon": [
-                        {"x": 455, "y": 943},
-                        {"x": 705, "y": 945},
-                        {"x": 703, "y": 1011},
-                        {"x": 454, "y": 1011}
-                    ],
-                    "confidence": 0.993
-                }
-            ]
-        },
-        {
-            "text": "UEFA",
-            "boundingPolygon": [
-                {"x": 936, "y": 928},
-                {"x": 986, "y": 931},
-                {"x": 985, "y": 955},
-                {"x": 935, "y": 953}
-            ],
-            "words": [
-                {
-                    "text": "UEFA",
-                    "boundingPolygon": [
-                        {"x": 936, "y": 928},
-                        {"x": 986, "y": 930},
-                        {"x": 985, "y": 955},
-                        {"x": 935, "y": 952}
-                    ],
-                    "confidence": 0.638
-                }
-            ]
-        },
-        {
-            "text": "EURO2024",
-            "boundingPolygon": [
-                {"x": 890, "y": 951},
-                {"x": 1034, "y": 952},
-                {"x": 1034, "y": 981},
-                {"x": 890, "y": 980}
-            ],
-            "words": [
-                {
-                    "text": "EURO2024",
-                    "boundingPolygon": [
-                        {"x": 893, "y": 952},
-                        {"x": 1032, "y": 954},
-                        {"x": 1032, "y": 981},
-                        {"x": 892, "y": 981}
-                    ],
-                    "confidence": 0.986
-                }
-            ]
-        },
-        {
-            "text": "GEORGIA",
-            "boundingPolygon": [
-                {"x": 1112, "y": 942},
-                {"x": 1521, "y": 940},
-                {"x": 1521, "y": 1011},
-                {"x": 1112, "y": 1012}
-            ],
-            "words": [
-                {
-                    "text": "GEORGIA",
-                    "boundingPolygon": [
-                        {"x": 1114, "y": 944},
-                        {"x": 1500, "y": 941},
-                        {"x": 1498, "y": 1012},
-                        {"x": 1113, "y": 1011}
-                    ],
-                    "confidence": 0.993
-                }
-            ]
-        },
-        {
-            "text": "GERMANY",
-            "boundingPolygon": [
-                {"x": 924, "y": 977},
-                {"x": 1002, "y": 978},
-                {"x": 1002, "y": 996},
-                {"x": 924, "y": 996}
-            ],
-            "words": [
-                {
-                    "text": "GERMANY",
-                    "boundingPolygon": [
-                        {"x": 926, "y": 978},
-                        {"x": 1000, "y": 980},
-                        {"x": 998, "y": 996},
-                        {"x": 925, "y": 997}
-                    ],
-                    "confidence": 0.994
-                }
-            ]
-        }
-    ]
+            }
+        ]
+    }
 }
